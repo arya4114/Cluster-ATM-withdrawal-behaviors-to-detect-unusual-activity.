@@ -49,10 +49,8 @@ Use probabilistic cluster assignments to enhance decision-making in credit scori
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**Comparison Table**
 
-Explaining the Clusters
-Clusters represent groups of similar data points based on the input features. They highlight patterns, behaviors, or characteristics that group certain data points together. Here's what the clusters might mean in practical terms:
+**Explaining the Clusters**
 
 Cluster 0:
 Represents moderate withdrawal activity with medium balances.
@@ -66,6 +64,8 @@ Cluster 2:
 Comprises low withdrawal amounts and positive balances.
 Likely represents low-risk, financially stable customers who maintain sufficient balances.
 By analyzing these clusters, businesses can tailor financial services, flag unusual activities for deeper review, or strategize targeted engagement campaigns.
+
+<img width="525" alt="image" src="https://github.com/user-attachments/assets/108dc8e8-7238-438e-baed-26552489c882" />
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -89,5 +89,4 @@ Cohesion: Points within each cluster are closely related.
 Separation: Clusters are distinct from each other.
 This confirms that GMM captured the underlying structure of the data better than K-Means (0.5955) and DBSCAN (0.4557).
 
-<img width="525" alt="image" src="https://github.com/user-attachments/assets/108dc8e8-7238-438e-baed-26552489c882" />
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
